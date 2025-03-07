@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./JCF White logo.gif" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Index.css">
+    <link rel="stylesheet" href="./Login.css">
+    <title>BCIU</title>
+</head>
+<body id="main">
+    <header>
+        <img src="./JCFBadge.png" alt="JCF LOGO" id="insignia">
+            <br>
+        <h1 id="mainH1">Battalion Criminal Investigation Unit</h1>
+            <br>
+    </header>
+        <br>
+    <section class="Container" id="LogsConrol">
+        <h1>BCIU Logs</h1>
+            <br>
+        <h5>Ensure all the information being logged is substantial with relevant documentation.</h5>
+            <br><br>
+        <h3>Gang Incident Log</h3>
+            <br>
+        <h5>This form is restricted to members of the Battalion Criminal Investigation Unit Headquarters.</h5>
+            <br>
+        <button class="button" id="gangLog" onclick="gangLog()">Gang Log</button>
+            <br><br><br>
+        <h3>Arrest Log</h3>
+            <br>
+        <h5>This should only be used by persons who are stationed at Specialized Operations to log the details of an arrest made.</h5>
+            <br>
+        <button class="button" id="arrestLog" onclick="arrestLog()">Arrest Log</button>
+            <br><br><br>
+        <h3>Firearm Seizure and Recovery</h3>
+            <br>
+        <h5>Click the button below to enter all the details for the property recovered, including vehicle, money, and other items.</h5>
+            <br>
+        <button class="button" id="firearmLog" onclick="fireArmLog()">Firearm Log</button>
+            <br><br><br>
+        <h3>Wanted Person Apprehended</h3>
+            <br>
+        <h5>Click on the button below to add the information for all wanted persons arrested. This information should only be logged if you are stationed at Specialized Operations.</h5>
+            <br>
+        <button class="button" id="wantedPersonLog" onclick="wantedPersonLog()">Wanted Person Log</button>
+            <br><br><br>
+        <h3>Court case attended</h3>
+            <br>
+        <h5>This information should only be logged on the completion of the court case, for future reference.</h5>
+            <br>
+        <button class="button" id="courtLog" onclick="courtLog()">Court Log</button>
+    </section>
+        <br><br>
+    <footer>
+        <div id="Maker">
+            <p>&copy; Maker: Robert Dowe</p>
+            </div>
+    </footer>
+    <script src="./Index.js"></script>
+</body>
+</html>
